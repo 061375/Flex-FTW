@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond $1 !^(index\.php|css|js|images)
+RewriteRule ^(.*)$ index.php?q=$1 [L]

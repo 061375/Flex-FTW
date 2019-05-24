@@ -1,0 +1,157 @@
+/** 
+ * Some common mixins
+ * */
+/**  
+ * a wrapper for transitions
+ * @param string $s a float point number in second(s) - default .6s
+ * */
+/** 
+ * media query break wrapper
+ * @param string $width - 768px
+ * */
+/** 
+ * wrapper to export common browser prefix for backward compatability
+ * @param array $declarations the list of styles
+ * @param list $prefixes list of prefixes to use
+ * */
+/** 
+ * wrapper for keyframe animations
+ * @param string name of the animation
+ * */
+/** 
+ * force not allow mouse selection of wrapped text
+ * */
+/* line 1, ../working/sass/_flex.scss */
+body, html {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: Helvetica, sans-serif;
+  font-size: 1em;
+  background: #f1f1f1; }
+
+/* line 9, ../working/sass/_flex.scss */
+.col {
+  margin: 0.5em; }
+  /* line 11, ../working/sass/_flex.scss */
+  .col p {
+    padding: 0.5em; }
+
+/* line 15, ../working/sass/_flex.scss */
+.flex {
+  display: flex; }
+
+/* line 18, ../working/sass/_flex.scss */
+.c1 {
+  flex: 1; }
+
+/* line 21, ../working/sass/_flex.scss */
+.c2 {
+  flex: 2; }
+
+/* line 24, ../working/sass/_flex.scss */
+.c3 {
+  flex: 3; }
+
+/* line 27, ../working/sass/_flex.scss */
+.c4 {
+  flex: 4; }
+
+/* line 30, ../working/sass/_flex.scss */
+.c5 {
+  flex: 5; }
+
+/* line 33, ../working/sass/_flex.scss */
+.c6 {
+  flex: 6; }
+
+/* line 36, ../working/sass/_flex.scss */
+img {
+  width: 100%; }
+
+@media (max-width: 1024px) {
+  /* line 40, ../working/sass/_flex.scss */
+  .grid {
+    display: block;
+    width: 100%;
+    float: left; }
+
+  /* line 45, ../working/sass/_flex.scss */
+  .flex {
+    display: block;
+    float: left; }
+
+  /* line 49, ../working/sass/_flex.scss */
+  .container {
+    margin: 0px; } }
+/* line 1, ../working/sass/_menu.scss */
+header {
+  background-color: #de0000;
+  min-height: 50px;
+  position: sticky;
+  top: 0px;
+  z-index: 2; }
+
+/* line 8, ../working/sass/_menu.scss */
+header ul {
+  list-style: none;
+  float: right;
+  margin: 0; }
+
+/* line 13, ../working/sass/_menu.scss */
+header ul li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 16px;
+  margin: 0;
+  cursor: pointer; }
+
+/* line 20, ../working/sass/_menu.scss */
+header ul li:hover {
+  background-color: red; }
+
+/* line 6, ../working/sass/_colors.scss */
+.grey {
+  background: #f1f1f1; }
+
+/* line 9, ../working/sass/_colors.scss */
+.white {
+  background: #ffffff; }
+
+/* line 12, ../working/sass/_colors.scss */
+.red {
+  background: #de0000; }
+
+/* line 1, ../working/sass/_type.scss */
+h1 {
+  color: #de0000; }
+
+/* line 1, ../working/sass/_footer.scss */
+.footer {
+  background: #de0000;
+  color: #ffffff; }
+
+/* Place pages here to allow overides */
+/* line 2, ../working/sass/_a.scss */
+.a #topimg {
+  width: 100%;
+  margin: 1em auto;
+  display: block; }
+/* line 7, ../working/sass/_a.scss */
+.a h1 {
+  font-size: 400%;
+  padding: 1em 0 0.1em 0;
+  margin: 0;
+  text-align: center; }
+/* line 13, ../working/sass/_a.scss */
+.a h2 {
+  font-weight: 400;
+  font-size: 1.1em;
+  margin-bottom: 2em; }
+/* line 18, ../working/sass/_a.scss */
+.a p {
+  font-weight: 100; }
+
+/* line 21, ../working/sass/style.scss */
+.container > .col {
+  margin: 0; }

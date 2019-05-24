@@ -1,0 +1,24 @@
+@import "mixins";
+@import "flex";
+@import "menu";
+@import "colors";
+@import "type";
+@import "footer";
+
+/* Place pages here to allow overides */
+
+@import "a";
+
+
+.home {
+
+}
+.anim {
+
+}
+
+.container {
+	& > .col {
+		margin: 0;
+	}
+}

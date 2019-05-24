@@ -1,0 +1,19 @@
+/* line 2, ../working/sass/a.scss */
+.a #topimg {
+  width: 100%;
+  margin: 1em auto;
+  display: block; }
+/* line 7, ../working/sass/a.scss */
+.a h1 {
+  font-size: 400%;
+  padding: 1em 0 0.1em 0;
+  margin: 0;
+  text-align: center; }
+/* line 13, ../working/sass/a.scss */
+.a h2 {
+  font-weight: 400;
+  font-size: 1.1em;
+  margin-bottom: 2em; }
+/* line 18, ../working/sass/a.scss */
+.a p {
+  font-weight: 100; }

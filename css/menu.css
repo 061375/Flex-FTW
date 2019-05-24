@@ -1,0 +1,25 @@
+/* line 1, ../working/sass/menu.scss */
+header {
+  background-color: #de0000;
+  min-height: 50px;
+  position: sticky;
+  top: 0px;
+  z-index: 2; }
+
+/* line 8, ../working/sass/menu.scss */
+header ul {
+  list-style: none;
+  float: right;
+  margin: 0; }
+
+/* line 13, ../working/sass/menu.scss */
+header ul li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 16px;
+  margin: 0;
+  cursor: pointer; }
+
+/* line 20, ../working/sass/menu.scss */
+header ul li:hover {
+  background-color: red; }
