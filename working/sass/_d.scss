@@ -1,0 +1,46 @@
+.d {
+	#topimg {
+	    width: 125%;
+	    margin: 1em auto;
+	    display: block;
+	    position: relative;
+	    left: -30%;
+	    z-index: 2;
+	}
+	h2 {
+		font-size: 1.1em;
+		font-weight: 400;
+	}
+	.col {
+		margin: 0.5em 1.5em;
+	}
+	.container > .grey { z-index: 2;}
+	main .grey {
+		padding: 2em;
+	}
+	#bgsq {
+	    z-index: 1;
+	}
+}
+@media (max-width: 1024px) {
+	.d {
+		#topimg {
+			position: inherit;
+			left: inherit;
+			width: 100%;
+		}
+	}
+}
+@media (max-width: 1280px) {
+	.d {
+		font-size: 0.9em;
+		.container {
+			& > .c2 {
+				flex: 1;
+			}
+			& > .c4 {
+				flex: 6;
+			}
+		}
+	}
+}

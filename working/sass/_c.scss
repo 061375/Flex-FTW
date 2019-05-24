@@ -1,0 +1,32 @@
+.c {
+	font-size: 12px;
+	h1 {
+		padding-top: 2em;
+		text-align: center;
+    	margin: 0 2em;
+    	font-size: 2.5em;
+	}
+	main {
+		h2 {
+			padding-top: 15em;
+			font-weight:100;
+			font-size: 1.2em;
+		}
+	}
+}
+@media (max-width: 1280px) {
+	.c {
+		.container {
+			.c6 {
+				.c3 {
+					flex: 1;
+				}
+			}
+		}
+		main {
+			h2 {
+				padding-top: 30px;
+			}
+		}
+	}
+}

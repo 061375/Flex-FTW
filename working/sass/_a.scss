@@ -19,3 +19,15 @@
 		font-weight: 100;
 	}
 }
+@media (max-width: 1280px) {
+	.a {
+		font-size: 0.9em;
+		.container {
+			.c4 {
+				.c3 {
+					flex: 1;
+				}
+			}
+		}
+	}
+}

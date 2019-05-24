@@ -1,14 +1,17 @@
 @import "mixins";
+@import "colors";
 @import "flex";
 @import "menu";
-@import "colors";
 @import "type";
+@import "classes";
 @import "footer";
 
 /* Place pages here to allow overides */
 
 @import "a";
-
+@import "b";
+@import "c";
+@import "d";
 
 .home {
 
@@ -21,4 +24,20 @@
 	& > .col {
 		margin: 0;
 	}
+}
+#showgridc {
+	position: absolute;
+    margin: 15px;
+}
+.showgrid .col {border: dashed 1px;}
+
+#bgsq {
+    width: 50vw;
+    height: 100vw;
+    background-color: #3500fd08;
+    transform: rotate(45deg);
+    position: fixed;
+    top: 50%;
+    left: -8%;
+    z-index: -1;
 }

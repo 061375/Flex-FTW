@@ -23,16 +23,6 @@ const images = [
 	'52.jpg',
 	'59.jpg'
 ]
-window.onload = function() {
-	var ar = [1,6,1]
-	var t = 0
-	var tmax = 10000
-	
-	runRandom()
-	var ID = setInterval(()=>{
-		runRandom()
-	},tmax);
-}
 function runRandom() {
 	let cols = document.getElementsByClassName('col')
 	for(let i=0;i<cols.length;i++) {

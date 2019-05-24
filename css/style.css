@@ -21,6 +21,18 @@
 /** 
  * force not allow mouse selection of wrapped text
  * */
+/* line 6, ../working/sass/_colors.scss */
+.grey {
+  background: #f1f1f1; }
+
+/* line 9, ../working/sass/_colors.scss */
+.white {
+  background: #ffffff; }
+
+/* line 12, ../working/sass/_colors.scss */
+.red {
+  background: #de0000; }
+
 /* line 1, ../working/sass/_flex.scss */
 body, html {
   margin: 0;
@@ -90,15 +102,16 @@ header {
   min-height: 50px;
   position: sticky;
   top: 0px;
-  z-index: 2; }
+  z-index: 200;
+  color: #ffffff; }
 
-/* line 8, ../working/sass/_menu.scss */
+/* line 9, ../working/sass/_menu.scss */
 header ul {
   list-style: none;
   float: right;
   margin: 0; }
 
-/* line 13, ../working/sass/_menu.scss */
+/* line 14, ../working/sass/_menu.scss */
 header ul li {
   display: inline-block;
   margin-right: 10px;
@@ -106,25 +119,49 @@ header ul li {
   margin: 0;
   cursor: pointer; }
 
-/* line 20, ../working/sass/_menu.scss */
+/* line 21, ../working/sass/_menu.scss */
 header ul li:hover {
   background-color: red; }
 
-/* line 6, ../working/sass/_colors.scss */
-.grey {
-  background: #f1f1f1; }
-
-/* line 9, ../working/sass/_colors.scss */
-.white {
-  background: #ffffff; }
-
-/* line 12, ../working/sass/_colors.scss */
-.red {
-  background: #de0000; }
+/* line 25, ../working/sass/_menu.scss */
+header #hamburger {
+  list-style: none;
+  float: right;
+  margin: 7px 14px 7px 7px;
+  padding: 0;
+  cursor: pointer; }
+  /* line 31, ../working/sass/_menu.scss */
+  header #hamburger li {
+    margin: 5px 2px;
+    background: #ffffff;
+    width: 30px;
+    height: 5px;
+    display: block;
+    padding: 0; }
 
 /* line 1, ../working/sass/_type.scss */
 h1 {
   color: #de0000; }
+
+/* line 4, ../working/sass/_type.scss */
+h2 {
+  font-size: 1.3em; }
+
+/* line 7, ../working/sass/_type.scss */
+p {
+  font-weight: 100; }
+
+/* line 1, ../working/sass/_classes.scss */
+.i {
+  text-indent: 1em; }
+
+/* line 7, ../working/sass/_classes.scss */
+.tomiddle {
+  padding-top: 15%; }
+
+/* line 10, ../working/sass/_classes.scss */
+.grey .grey {
+  padding: 1em; }
 
 /* line 1, ../working/sass/_footer.scss */
 .footer {
@@ -152,6 +189,104 @@ h1 {
 .a p {
   font-weight: 100; }
 
-/* line 21, ../working/sass/style.scss */
+@media (max-width: 1280px) {
+  /* line 23, ../working/sass/_a.scss */
+  .a {
+    font-size: 0.9em; }
+    /* line 27, ../working/sass/_a.scss */
+    .a .container .c4 .c3 {
+      flex: 1; } }
+/* line 1, ../working/sass/_b.scss */
+.b {
+  font-size: 12px; }
+  /* line 3, ../working/sass/_b.scss */
+  .b h2 {
+    font-weight: 400;
+    margin-bottom: 2em; }
+
+/* line 1, ../working/sass/_c.scss */
+.c {
+  font-size: 12px; }
+  /* line 3, ../working/sass/_c.scss */
+  .c h1 {
+    padding-top: 2em;
+    text-align: center;
+    margin: 0 2em;
+    font-size: 2.5em; }
+  /* line 10, ../working/sass/_c.scss */
+  .c main h2 {
+    padding-top: 15em;
+    font-weight: 100;
+    font-size: 1.2em; }
+
+@media (max-width: 1280px) {
+  /* line 21, ../working/sass/_c.scss */
+  .c .container .c6 .c3 {
+    flex: 1; }
+  /* line 27, ../working/sass/_c.scss */
+  .c main h2 {
+    padding-top: 30px; } }
+/* line 2, ../working/sass/_d.scss */
+.d #topimg {
+  width: 125%;
+  margin: 1em auto;
+  display: block;
+  position: relative;
+  left: -30%;
+  z-index: 2; }
+/* line 10, ../working/sass/_d.scss */
+.d h2 {
+  font-size: 1.1em;
+  font-weight: 400; }
+/* line 14, ../working/sass/_d.scss */
+.d .col {
+  margin: 0.5em 1.5em; }
+/* line 17, ../working/sass/_d.scss */
+.d .container > .grey {
+  z-index: 2; }
+/* line 18, ../working/sass/_d.scss */
+.d main .grey {
+  padding: 2em; }
+/* line 21, ../working/sass/_d.scss */
+.d #bgsq {
+  z-index: 1; }
+
+@media (max-width: 1024px) {
+  /* line 27, ../working/sass/_d.scss */
+  .d #topimg {
+    position: inherit;
+    left: inherit;
+    width: 100%; } }
+@media (max-width: 1280px) {
+  /* line 35, ../working/sass/_d.scss */
+  .d {
+    font-size: 0.9em; }
+    /* line 38, ../working/sass/_d.scss */
+    .d .container > .c2 {
+      flex: 1; }
+    /* line 41, ../working/sass/_d.scss */
+    .d .container > .c4 {
+      flex: 6; } }
+/* line 24, ../working/sass/style.scss */
 .container > .col {
   margin: 0; }
+
+/* line 28, ../working/sass/style.scss */
+#showgridc {
+  position: absolute;
+  margin: 15px; }
+
+/* line 32, ../working/sass/style.scss */
+.showgrid .col {
+  border: dashed 1px; }
+
+/* line 34, ../working/sass/style.scss */
+#bgsq {
+  width: 50vw;
+  height: 100vw;
+  background-color: #3500fd08;
+  transform: rotate(45deg);
+  position: fixed;
+  top: 50%;
+  left: -8%;
+  z-index: -1; }
