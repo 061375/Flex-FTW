@@ -5,8 +5,8 @@
     }
     .title {
         position: absolute;
-        top: 550px;
-        left: 300px;
+        //top: 550px;
+        top: 35px;
     }
     h1 {
         font-size: 9em;
@@ -16,6 +16,7 @@
         text-align: right;
         transform: rotate(-90deg);
         width: 150%;
+        height: 140vh;
     }
     h2 {
         font-weight: 400;
@@ -38,8 +39,8 @@
 @media (max-width: 1366px) {
     .g {
         .title {
-            top: 560px;
-            left: 0px;
+            //top: 560px;
+            //left: 0px;
         }
     }
 }
@@ -50,6 +51,7 @@
         }
         h1 {
             font-size: 8em;
+            width: 170%;
         }
     }
 }
