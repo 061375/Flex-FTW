@@ -1,0 +1,30 @@
+.h {
+    font-size: 12px;
+    .title {
+        position: relative;
+    }
+    h1 {
+        font-size: 6em;
+        margin: 0;
+    }
+    h2 {
+        font-weight: 400;
+        font-size: 1.3em;
+        margin-bottom: 2em;
+    }
+    p {
+        font-weight: 100;
+    }
+    .grey {
+       padding: 1em; 
+    }
+    .container {
+        & > div {
+            background-color: #fff;
+            margin: 0px 20px;
+        }
+    }
+    #bgsq {
+        z-index: 1;
+    }
+}

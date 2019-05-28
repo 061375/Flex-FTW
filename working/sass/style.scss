@@ -12,12 +12,30 @@
 @import "b";
 @import "c";
 @import "d";
+@import "e";
+@import "f";
+@import "g";
+@import "h";
+@import "ii";
+@import "anim";
 
 .home {
-
+	.white {
+		padding: 0.5em;
+	}
+	.intro {
+		float: left;
+		font-size: 4em;
+		font-weight: bold;
+		padding: 0;
+		margin: -12px 4px;
+	}
 }
-.anim {
-
+.a404 {
+	text-align: center;
+	h1 {
+		font-size: 15em;	
+	}
 }
 
 .container {
@@ -27,7 +45,7 @@
 }
 #showgridc {
 	position: absolute;
-    margin: 15px;
+	margin: 15px;
 }
 .showgrid .col {border: dashed 1px;}
 
