@@ -18,7 +18,7 @@ if(false === $q or '' == trim($q)) {
 	$q = 'templates/'.$q.'.php';
 }
 ?>
-<html>
+<html lang="en-US">
 	<title>
 		Art Direction FTW (Excerpt) 
 	</title>
@@ -49,7 +49,9 @@ if(false === $q or '' == trim($q)) {
 	</head>
 	<body class="<?php echo $class; ?>">
 		<?php include('templates/menu.php'); ?>
-		<?php include($q); ?>
+		<main>
+			<?php include($q); ?>
+		</main>
 		<script src="js/script.js"></script>
 	</body>
 </html>

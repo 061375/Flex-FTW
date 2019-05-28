@@ -7,3 +7,11 @@ h2 {
 p {
 	font-weight: 100;
 }
+a {
+	color: $black;
+}
+.footer {
+	a {
+		color: $white;
+	}
+}

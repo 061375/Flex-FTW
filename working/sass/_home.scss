@@ -1,0 +1,52 @@
+.home {
+	.white {
+		padding: 0.5em;
+	}
+	.intro {
+		float: left;
+		font-size: 4em;
+		font-weight: bold;
+		padding: 0;
+		margin: 6px 1px 0 4px;
+	}
+	.left {
+		flex: 1;
+		img {
+			display: none;
+			width: 50%;
+			margin: 0 0 0.5em 0.5em;
+		}
+	}
+	.right {
+		flex: 1;
+	}
+	.red {
+		padding: 0.9em;
+	}
+}
+@media (max-width: 1500px) {
+	.home {
+		.left {
+			flex: 2;
+			img {
+				display: block;
+				float: right;
+			}
+		}
+		.right {
+			display: none;
+		}
+	}
+}
+@media (max-width: 1024px) {
+	.home {
+		.footer {
+			background: $red;
+		}
+	}
+}
+@media (max-width: 500px) {
+	.home .left img {
+		width: 100%;
+	}
+}

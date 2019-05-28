@@ -21,15 +21,15 @@
 /** 
  * force not allow mouse selection of wrapped text
  * */
-/* line 6, ../working/sass/_colors.scss */
+/* line 7, ../working/sass/_colors.scss */
 .grey {
   background: #f1f1f1; }
 
-/* line 9, ../working/sass/_colors.scss */
+/* line 10, ../working/sass/_colors.scss */
 .white {
   background: #ffffff; }
 
-/* line 12, ../working/sass/_colors.scss */
+/* line 13, ../working/sass/_colors.scss */
 .red {
   background: #de0000; }
 
@@ -97,7 +97,7 @@ img {
   .container {
     margin: 0px; } }
 /* line 1, ../working/sass/_menu.scss */
-header {
+nav {
   background-color: #de0000;
   min-height: 50px;
   position: sticky;
@@ -111,43 +111,41 @@ header {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
-
-/* line 11, ../working/sass/_menu.scss */
-header ul {
-  list-style: none;
-  float: right;
-  margin: 0; }
-
-/* line 16, ../working/sass/_menu.scss */
-header ul li {
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  display: inline-block;
-  margin-right: 0px;
-  padding: 0;
-  margin: 0;
-  cursor: pointer;
-  max-width: 16vw; }
-  /* line 24, ../working/sass/_menu.scss */
-  header ul li img {
-    max-height: 200px;
-    width: inherit; }
+  /* line 10, ../working/sass/_menu.scss */
+  nav ul {
+    list-style: none;
+    float: right;
+    margin: 0; }
+    /* line 14, ../working/sass/_menu.scss */
+    nav ul li {
+      transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+      display: inline-block;
+      margin-right: 0px;
+      padding: 0;
+      margin: 0;
+      cursor: pointer;
+      max-width: 16vw; }
+      /* line 22, ../working/sass/_menu.scss */
+      nav ul li img {
+        max-height: 200px;
+        width: inherit; }
 
 /* line 29, ../working/sass/_menu.scss */
-header ul li:hover {
+nav ul li:hover {
   background-color: red; }
 
 /* line 32, ../working/sass/_menu.scss */
-header {
+nav {
   z-index: 9999; }
   /* line 34, ../working/sass/_menu.scss */
-  header #hamburger {
+  nav #hamburger {
     list-style: none;
     float: right;
     margin: 7px 14px 7px 7px;
     padding: 0;
     cursor: pointer; }
     /* line 40, ../working/sass/_menu.scss */
-    header #hamburger li {
+    nav #hamburger li {
       margin: 5px 2px;
       background: #ffffff;
       width: 30px;
@@ -155,7 +153,7 @@ header {
       display: block;
       padding: 0; }
   /* line 49, ../working/sass/_menu.scss */
-  header #menu {
+  nav #menu {
     position: absolute;
     right: 0;
     top: 50px;
@@ -163,21 +161,21 @@ header {
     background: #de0000;
     padding: 0; }
     /* line 56, ../working/sass/_menu.scss */
-    header #menu li {
+    nav #menu li {
       display: block;
       float: left;
       margin: 10px; }
 
 @media (max-width: 1366px) {
   /* line 64, ../working/sass/_menu.scss */
-  header #menu {
+  nav #menu {
     position: inherit; } }
 @media (max-width: 640px) {
   /* line 69, ../working/sass/_menu.scss */
-  header ul li {
+  nav ul li {
     max-width: 100%; }
     /* line 71, ../working/sass/_menu.scss */
-    header ul li img {
+    nav ul li img {
       max-height: inherit; } }
 /* line 1, ../working/sass/_type.scss */
 h1 {
@@ -190,6 +188,14 @@ h2 {
 /* line 7, ../working/sass/_type.scss */
 p {
   font-weight: 100; }
+
+/* line 10, ../working/sass/_type.scss */
+a {
+  color: #000000; }
+
+/* line 14, ../working/sass/_type.scss */
+.footer a {
+  color: #ffffff; }
 
 /* line 1, ../working/sass/_classes.scss */
 .i {
@@ -212,11 +218,11 @@ p {
   display: none; }
 
 /* line 1, ../working/sass/_footer.scss */
-.footer {
+footer {
   background: #de0000;
   color: #ffffff; }
   /* line 4, ../working/sass/_footer.scss */
-  .footer .col {
+  footer .col {
     margin: 4em 1.5em !important; }
 
 /* Place pages here to allow overides */
@@ -570,38 +576,75 @@ p {
   transition: all 6s cubic-bezier(0.23, 1, 0.32, 1);
   background: #ffffff; }
 
-/* line 23, ../working/sass/style.scss */
+/* line 2, ../working/sass/_home.scss */
 .home .white {
   padding: 0.5em; }
-/* line 26, ../working/sass/style.scss */
+/* line 5, ../working/sass/_home.scss */
 .home .intro {
   float: left;
   font-size: 4em;
   font-weight: bold;
   padding: 0;
-  margin: -12px 4px; }
+  margin: 6px 1px 0 4px; }
+/* line 12, ../working/sass/_home.scss */
+.home .left {
+  flex: 1; }
+  /* line 14, ../working/sass/_home.scss */
+  .home .left img {
+    display: none;
+    width: 50%;
+    margin: 0 0 0.5em 0.5em; }
+/* line 20, ../working/sass/_home.scss */
+.home .right {
+  flex: 1; }
+/* line 23, ../working/sass/_home.scss */
+.home .red {
+  padding: 0.9em; }
 
-/* line 34, ../working/sass/style.scss */
+@media (max-width: 1500px) {
+  /* line 29, ../working/sass/_home.scss */
+  .home .left {
+    flex: 2; }
+    /* line 31, ../working/sass/_home.scss */
+    .home .left img {
+      display: block;
+      float: right; }
+  /* line 36, ../working/sass/_home.scss */
+  .home .right {
+    display: none; } }
+@media (max-width: 1024px) {
+  /* line 43, ../working/sass/_home.scss */
+  .home .footer {
+    background: #de0000; } }
+@media (max-width: 500px) {
+  /* line 49, ../working/sass/_home.scss */
+  .home .left img {
+    width: 100%; } }
+/* line 23, ../working/sass/style.scss */
 .a404 {
   text-align: center; }
-  /* line 36, ../working/sass/style.scss */
+  /* line 25, ../working/sass/style.scss */
   .a404 h1 {
     font-size: 15em; }
 
-/* line 42, ../working/sass/style.scss */
+/* line 31, ../working/sass/style.scss */
 .container > .col {
   margin: 0; }
 
-/* line 46, ../working/sass/style.scss */
+/* line 35, ../working/sass/style.scss */
 #showgridc {
   position: absolute;
   margin: 15px; }
 
-/* line 50, ../working/sass/style.scss */
+/* line 39, ../working/sass/style.scss */
 .showgrid .col {
   border: dashed 1px; }
 
-/* line 52, ../working/sass/style.scss */
+/* line 40, ../working/sass/style.scss */
+.showgrid .scol {
+  border: dashed 1px; }
+
+/* line 41, ../working/sass/style.scss */
 #bgsq {
   width: 50vw;
   height: 100vw;

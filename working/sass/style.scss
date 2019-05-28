@@ -18,19 +18,8 @@
 @import "h";
 @import "ii";
 @import "anim";
+@import "home";
 
-.home {
-	.white {
-		padding: 0.5em;
-	}
-	.intro {
-		float: left;
-		font-size: 4em;
-		font-weight: bold;
-		padding: 0;
-		margin: -12px 4px;
-	}
-}
 .a404 {
 	text-align: center;
 	h1 {
@@ -48,7 +37,7 @@
 	margin: 15px;
 }
 .showgrid .col {border: dashed 1px;}
-
+.showgrid .scol {border: dashed 1px;}
 #bgsq {
     width: 50vw;
     height: 100vw;

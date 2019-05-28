@@ -5,7 +5,7 @@
 			<div class="col c1">
 				<div class="flex">
 					<div class="col c1">
-						<img src="images/sc.png" alt="">
+						<img src="images/sc.png" alt="suitcase">
 					</div>
 				</div>
 				<div class="flex">

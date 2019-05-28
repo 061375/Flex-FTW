@@ -6,7 +6,7 @@
 				<h1>Vanish for good</h1>
 			</div>
 			<div class="col c3">
-				<img src="images/sc.png" alt="">
+				<img src="images/sc.png" alt="suitcase">
 			</div>
 			<div class="col c1">
 				<h2 class="tomiddle">

@@ -1,4 +1,4 @@
-header {
+nav {
 	background-color: #de0000;
 	min-height: 50px;
 	position: sticky;
@@ -7,29 +7,29 @@ header {
 	color: $white;
 	@include easeOut;
 	@include noselect;
-}
-header ul {
-	list-style: none;
-	float: right;
-	margin: 0;
-}
-header ul li {
-	@include easeOut;
-	display: inline-block;
-	margin-right: 0px;
-	padding: 0;
-	margin: 0;
-	cursor: pointer;
-	max-width: 16vw;
-	img {
-		max-height: 200px;
-		width: inherit;
+	ul {
+		list-style: none;
+		float: right;
+		margin: 0;
+		li {
+			@include easeOut;
+			display: inline-block;
+			margin-right: 0px;
+			padding: 0;
+			margin: 0;
+			cursor: pointer;
+			max-width: 16vw;
+			img {
+				max-height: 200px;
+				width: inherit;
+			}
+		}
 	}
 }
-header ul li:hover {
+nav ul li:hover {
 	background-color: red;
 }
-header {
+nav {
 	z-index: 9999;
 	#hamburger {
 		list-style: none;
@@ -61,12 +61,12 @@ header {
 	}
 }
 @media (max-width: 1366px) {
-	header #menu {
+	nav #menu {
 		position: inherit;
 	}
 }
 @media (max-width: 640px) {
-	header ul li {
+	nav ul li {
 		max-width: 100%;
 		img {
 			max-height: inherit;
