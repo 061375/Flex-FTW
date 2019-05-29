@@ -2,7 +2,7 @@
 	
 	<div class="col content c2">
 		<p>
-			This simple exercise was designed and coded by <a href="http://jeremyheminger.com" target="_blank" rel="noopener">Jeremy Heminger</a>. Ideally this is an ongoing project to help me hone my web development skillset. It is intended for entertainment purposes only. If you find this content useful, feel free to use it as you wish.
+			This simple exercise was designed and coded by <a href="http://jeremyheminger.com" target="_blank" rel="noopener">Jeremy Heminger</a>. Ideally this is an ongoing project to help me hone my web development skillset. It is intended for entertainment purposes only. If you find this content useful, feel free to use it as you wish, all the code is available on my GitHub account.
 		</p>
 		<p>
 			This website does not collect cookies.

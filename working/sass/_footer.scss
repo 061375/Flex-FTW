@@ -1,6 +1,10 @@
 footer {
-	background: $red;
+	background: $red !important;
 	color: $white;
+	* {
+		background: $red !important;
+		color: $white;
+	}
 	.col {
 		margin: 4em 1.5em !important;
 	}

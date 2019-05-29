@@ -1,10 +1,11 @@
 
-<div class="container">
-    <div>
+<div class="flex">
+    <div class="c1"></div>
+    <div class="c6 white">
         <div id="bgsq"></div>
             <div class="flex">
                     <div class="col c1"></div>
-                    <div class="col c1">
+                    <div class="col c2">
                             <h2>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. In laudantium fuga distinctio mollitia perferendis consequatur nobis neque, porro provident doloribus. Sunt, vero asperiores accusamus in, culpa sit quo cumque nam!
                             </h2>
@@ -55,7 +56,6 @@
                         
                 </div>
             </div>
-    </div>
     
     <div class="col flex">
             <div class="col c1">
@@ -129,6 +129,7 @@
                             </p>
                     </div>
             </div>
+            <?php include('templates/footer.php'); ?>
     </div>
-<?php include('templates/footer.php'); ?>
+    <div class="c1"></div>
 </div>

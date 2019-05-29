@@ -5,8 +5,11 @@
     }
     .title {
         position: absolute;
-        left: 0px;
-        top: -40px;
+        //left: 0px;
+        //top: -40px;
+        left: 3vh;
+        top: 10vh;
+        background: transparent;
     }
     h1 {
         font-size: 9em;
@@ -17,6 +20,7 @@
         transform: rotate(-90deg);
         height: 100vh;
         width: 100%;
+        background: transparent;
     }
     h2 {
         font-weight: 400;
@@ -67,6 +71,20 @@
         }
         .sub h2 {
                 padding-top: inherit;
+        }
+    }
+}
+@media (min-height: 900px) {
+    .f {
+        .title {
+            left: 12vh;
+        }
+    }
+}
+@media (min-height: 1200px) {
+    .f {
+        .title {
+            left: 16vh;
         }
     }
 }

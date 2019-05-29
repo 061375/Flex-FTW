@@ -7,6 +7,7 @@
         position: absolute;
         //top: 550px;
         top: 35px;
+        background: transparent;
     }
     h1 {
         font-size: 9em;
@@ -17,6 +18,7 @@
         transform: rotate(-90deg);
         width: 150%;
         height: 140vh;
+        background: transparent;
     }
     h2 {
         font-weight: 400;
@@ -80,6 +82,27 @@
         }
         .sub h2 {
             padding-top: inherit;
+        }
+    }
+}
+@media (max-height: 800px) {
+    .g {
+        h1 {
+            height: 160vh;
+        }
+    }
+}
+@media (max-height: 700px) {
+    .g {
+        h1 {
+            height: 188vh;
+        }
+    }
+}
+@media (max-width: 500px) {
+    .g {
+        h1 {
+            height:inherit;
         }
     }
 }

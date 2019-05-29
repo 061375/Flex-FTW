@@ -36,14 +36,27 @@ if(false === $q or '' == trim($q)) {
 					}	
 				});
 				const menu = document.getElementById("menu")
+				const menucon = document.getElementById("menucon")
 				document.getElementById("hamburger").addEventListener("click",function(e){
-					if(menu.hasClass("hidden")){
-						menu.removeClass('hidden')
+					if(menucon.hasClass("hidden")){
+						showMenu()
 					}else{
-						menu.addClass('hidden')
+						hideMenu()
 					}	
 				});
 				<?php echo $script; ?>
+			}
+			function showMenu() {
+				menucon.removeClass('hidden')
+				setTimeout(()=>{
+					menu.removeClass('hide')
+				},100)
+			}
+			function hideMenu() {
+				menu.addClass('hide')
+				setTimeout(()=>{
+					menucon.addClass('hidden')
+				},100)
 			}
 		</script>
 	</head>
