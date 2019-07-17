@@ -40,6 +40,9 @@
 				<a href="/h"><img src="images/26.jpg" alt="compound grids" /></a>
 			</li>
 			<li>
+				<a href="/j"><img src="images/j.jpg" alt="compound grids" /></a>
+			</li>
+			<li>
 				<a href="/anim"><img src="images/anim.jpg" alt="animated flex"/></a>
 			</li>
 		</ul>

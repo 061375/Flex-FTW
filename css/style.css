@@ -47,7 +47,7 @@ body, html {
   margin: 0.5em; }
   /* line 11, ../working/sass/_flex.scss */
   .col p {
-    padding: 0.5em; }
+    padding: 0.2em 0.5em; }
 
 /* line 15, ../working/sass/_flex.scss */
 .flex {
@@ -196,14 +196,18 @@ h2 {
   font-size: 1.3em; }
 
 /* line 7, ../working/sass/_type.scss */
+h3 {
+  margin: 0.2em 0; }
+
+/* line 10, ../working/sass/_type.scss */
 p {
   font-weight: 100; }
 
-/* line 10, ../working/sass/_type.scss */
+/* line 13, ../working/sass/_type.scss */
 a {
   color: #000000; }
 
-/* line 14, ../working/sass/_type.scss */
+/* line 17, ../working/sass/_type.scss */
 footer a {
   color: #ffffff; }
 
@@ -607,6 +611,38 @@ footer {
   /* line 37, ../working/sass/_ii.scss */
   .ii h1 {
     font-size: 3em; } }
+/* line 1, ../working/sass/_j.scss */
+.j {
+  font-size: 12px; }
+  /* line 3, ../working/sass/_j.scss */
+  .j .title {
+    position: relative; }
+  /* line 6, ../working/sass/_j.scss */
+  .j h1 {
+    font-size: 6em;
+    margin: 0; }
+  /* line 10, ../working/sass/_j.scss */
+  .j h2 {
+    font-weight: 400;
+    font-size: 1.2em;
+    padding: 0.5em; }
+  /* line 16, ../working/sass/_j.scss */
+  .j p {
+    font-weight: 100; }
+  /* line 19, ../working/sass/_j.scss */
+  .j .grey {
+    padding: 1em; }
+  /* line 23, ../working/sass/_j.scss */
+  .j .container > div {
+    background-color: #fff;
+    margin: 0px 20px; }
+  /* line 28, ../working/sass/_j.scss */
+  .j #bgsq {
+    z-index: 1; }
+  /* line 32, ../working/sass/_j.scss */
+  .j .leftside p {
+    font-size: 10px; }
+
 /* line 2, ../working/sass/_anim.scss */
 .anim .col {
   transition: all 6s cubic-bezier(0.23, 1, 0.32, 1);
@@ -656,31 +692,31 @@ footer {
   /* line 49, ../working/sass/_home.scss */
   .home .left img {
     width: 100%; } }
-/* line 23, ../working/sass/style.scss */
+/* line 24, ../working/sass/style.scss */
 .a404 {
   text-align: center; }
-  /* line 25, ../working/sass/style.scss */
+  /* line 26, ../working/sass/style.scss */
   .a404 h1 {
     font-size: 15em; }
 
-/* line 31, ../working/sass/style.scss */
+/* line 32, ../working/sass/style.scss */
 .container > .col {
   margin: 0; }
 
-/* line 35, ../working/sass/style.scss */
+/* line 36, ../working/sass/style.scss */
 #showgridc {
   position: absolute;
   margin: 15px; }
 
-/* line 39, ../working/sass/style.scss */
+/* line 40, ../working/sass/style.scss */
 .showgrid .col {
   border: dashed 1px; }
 
-/* line 40, ../working/sass/style.scss */
+/* line 41, ../working/sass/style.scss */
 .showgrid .scol {
   border: dashed 1px; }
 
-/* line 41, ../working/sass/style.scss */
+/* line 42, ../working/sass/style.scss */
 #bgsq {
   width: 50vw;
   height: 100vw;
