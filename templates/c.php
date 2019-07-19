@@ -28,6 +28,15 @@
 				
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora voluptates magnam repellat laudantium eligendi blanditiis eos quae, a consequuntur hic, quasi quas, odio quod sit labore. Eum unde veritatis ducimus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde quasi temporibus debitis iure quod itaque reiciendis neque voluptatibus nostrum, rerum delectus deserunt accusamus numquam labore aspernatur autem explicabo assumenda aliquid? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora voluptates magnam repellat laudantium eligendi blanditiis eos quae, a consequuntur hic, quasi quas, odio quod sit labore. Eum unde veritatis ducimus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde quasi temporibus debitis iure quod itaque reiciendis neque voluptatibus nostrum, rerum delectus deserunt accusamus numquam labore aspernatur autem explicabo assumenda aliquid?
 				</p>
+				<p>
+						<em>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat possimus mollitia dolorem eius amet nemo placeat culpa, eos et architecto esse dolorum deleniti minus quaerat autem molestias, suscipit sed harum.
+						</em>
+					</p>
+				<p>
+					
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora voluptates magnam repellat laudantium eligendi blanditiis eos quae, a consequuntur hic, quasi quas, odio quod sit labore. Eum unde veritatis ducimus. 
+				</p>
 			</div>
 			<div class="col c1">
 				<h3>Section Title</h3>
@@ -51,7 +60,7 @@
 				</p>
 				<p>
 					
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora voluptates magnam repellat laudantium eligendi blanditiis eos quae, a consequuntur hic, quasi quas, odio quod sit labore. Eum unde veritatis ducimus. 
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora voluptates magnam repellat laudantium eligendi blanditiis eos quae, a consequuntur hic, quasi quas, odio quod sit labore. Eum unde veritatis ducimus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora voluptates magnam repellat laudantium eligendi blanditiis eos quae, a consequuntur hic, quasi quas, odio quod sit labore. Eum unde veritatis ducimus. 
 				</p>
 			</div>
 			<div class="col c1">
@@ -84,6 +93,15 @@
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat possimus mollitia dolorem eius amet nemo placeat culpa, eos et architecto esse dolorum deleniti minus quaerat autem molestias, suscipit sed harum.
 						</em>
 					</p>
+					<p>
+						
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nam, sapiente quibusdam asperiores ab, modi aperiam. Nam quo accusantium doloremque, obcaecati optio minus iusto corrupti error dicta eveniet voluptate at! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto rem voluptatum nihil doloremque cumque adipisci. Repudiandae eveniet perspiciatis nisi consequatur, quia eaque architecto, voluptatem, explicabo veritatis, culpa beatae nulla id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt nihil, sed aut a recusandae repellat atque quisquam quo qui voluptas? Ad sed esse dolorem aliquid ab perspiciatis temporibus, odio quam.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis iure minus recusandae, explicabo, repudiandae, obcaecati incidunt rerum dicta, corporis facilis aliquid sequi saepe perspiciatis pariatur eligendi veniam. Aut, sint saepe.
+					</p>
+					<p>
+					
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora voluptates magnam repellat laudantium eligendi blanditiis eos quae, a consequuntur hic, quasi quas, odio quod sit labore. Eum unde veritatis ducimus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde quasi temporibus debitis iure quod itaque reiciendis neque voluptatibus nostrum, rerum delectus deserunt accusamus numquam labore aspernatur autem explicabo assumenda aliquid? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora voluptates magnam repellat laudantium eligendi blanditiis eos quae, a consequuntur hic, quasi quas, odio quod sit labore. Eum unde veritatis ducimus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde quasi temporibus debitis iure quod itaque reiciendis neque voluptatibus nostrum, rerum delectus deserunt accusamus numquam labore aspernatur autem explicabo assumenda aliquid?
+				</p>
 				</div>
 			</div>
 			<?php include('templates/footer.php'); ?>

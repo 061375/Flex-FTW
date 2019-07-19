@@ -16,7 +16,10 @@
 							<strong>Pick a</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde voluptate aliquid ducimus similique corrupti praesentium explicabo voluptatibus quas saepe officiis beatae, possimus quae, nostrum impedit fugiat voluptas odio ab. Incidunt.
 						</h2>
 						<p class="i">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid blanditiis voluptatem minus id voluptatibus voluptas cupiditate optio consequuntur, ea autem, sapiente. Laborum nemo non error, facere harum eveniet earum, magni. lorem
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid blanditiis voluptatem minus id voluptatibus voluptas cupiditate optio consequuntur, ea autem, sapiente. Laborum nemo non error, facere harum eveniet earum, magni. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam nisi ducimus ipsa, consectetur rerum sit quas sequi vitae, quisquam sapiente quis explicabo architecto repellat placeat. Deleniti delectus nam autem, quisquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus fugiat, deleniti sed debitis minus eius aspernatur culpa quam accusantium, voluptas et in totam cupiditate eum, sapiente. Odit modi eius provident.
+						</p>
+						<p class="">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid blanditiis voluptatem minus id voluptatibus voluptas cupiditate optio consequuntur, ea autem, sapiente. Laborum nemo non error, facere harum eveniet earum, magni. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam nisi ducimus ipsa, consectetur rerum sit quas sequi vitae, quisquam sapiente quis explicabo architecto repellat placeat. Deleniti delectus nam autem, quisquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus fugiat, deleniti sed debitis minus eius aspernatur culpa quam accusantium, voluptas et in totam cupiditate eum, sapiente. Odit modi eius provident
 						</p>
 					</div>
 				</div>
@@ -25,7 +28,7 @@
 				<div class="flex">
 					<div class="col c1">
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet deleniti atque illum dolorum ea nulla repellat itaque, nostrum mollitia laboriosam velit quos, ut quas, repudiandae ipsa dicta! Distinctio, nesciunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed architecto quae laborum nisi natus, at commodi molestias illo reprehenderit voluptate, atque vero molestiae minus ipsa eaque ab amet facilis saepe!
+							consectetur adipisicing elit. A amet deleniti atque illum dolorum ea nulla repellat itaque, nostrum mollitia laboriosam velit quos, ut quas, repudiandae ipsa dicta! Distinctio, nesciunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed architecto quae laborum nisi natus, at commodi molestias illo reprehenderit voluptate, atque vero molestiae minus ipsa eaque ab amet facilis saepe!
 						</p>
 						<h3>Section Title</h3>
 						<p>
